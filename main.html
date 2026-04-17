@@ -28,12 +28,13 @@
     </div>
 
     <!-- Multi Select -->
-    <select id="multiSelect" multiple>
-      <option>Golden Retriever</option>
-      <option>Labrador</option>
-      <option>Pug</option>
-      <option>German Shepherd</option>
-    </select>
+    <label for="breeds">Please select your preferred breeds:</label><br><br>
+
+<select id="breeds" name="breeds" multiple size="3">
+  <option value="labrador">Labrador</option>
+  <option value="germanshepherd">German Shepherd</option>
+  <option value="bulldog">Bulldog</option>
+</select>
 
     <!-- Submit -->
     <button type="submit" id="submit">Submit</button>
