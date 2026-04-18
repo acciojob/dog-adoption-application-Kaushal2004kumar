@@ -41,7 +41,7 @@
       margin-bottom: 15px;
     }
 
-    button {
+    #submit{
       width: 100%;
       padding: 10px;
       background: #007bff;
@@ -52,6 +52,6 @@
       cursor: pointer;
     }
 
-    button:hover {
+    #submit:hover{
       background: #0056b3;
     }
